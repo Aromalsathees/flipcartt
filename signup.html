@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #1a284d;
+        }
+
+        .signup-background{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 40px;
+            margin-top: 30px;
+        }
+
+        input{
+            padding: 10px 25px;
+            border-radius: 10px;
+            border: none;
+            width: 250px;
+            background-color: #1E293B;
+        }
+
+        .signup-content{
+            background-color: #0F172A;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 25px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);;
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            background-color: #475569;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 20px;
+            color: white;
+        }
+
+        h1{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            color: #F8FAFC;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-background">
+        <div class="signup-content">
+            <h1>Sign Up!</h1>
+            <div class="inputs">
+                <input type="email" placeholder="Enter your email" name="" id="">
+                <input type="password" placeholder="Enter password" name="" id="">
+                <input type="password" placeholder="Confirm password" name="" id="">
+            </div>
+
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
